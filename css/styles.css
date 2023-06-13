@@ -11,7 +11,8 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  color: var(--primary-brand-color);
+  color: #434455;
+  background-color: #ffffff;
 }
 
 .pointer-btn {
@@ -32,12 +33,21 @@ body {
 
 /* Header */
 
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
 .logo-font {
   font-family: 'Raleway', sans-serif;
   color: var(--logo-main-color);
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -182,4 +192,5 @@ body {
 .footer-text {
   color: var(--team-bg-color);
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
