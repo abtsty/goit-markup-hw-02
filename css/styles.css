@@ -58,12 +58,15 @@ body {
 
 .adress-color {
   color: var(--secondary-text-color);
+  font-style: normal;
 }
 
 .header-links {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .link-active {
@@ -72,7 +75,13 @@ body {
 
 .links-hover:hover,
 .links-hover:focus {
-  color: var(--button-hover-color);
+  color: #404bbf;
+}
+
+.adress-wrap {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-style: normal;
 }
 
 /* Hero section */
@@ -86,6 +95,8 @@ body {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 
 .hero-btn {
@@ -95,6 +106,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 
 .hero-btn:hover,
@@ -108,11 +120,14 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .advantages-text {
   line-height: 1.5;
   color: var(--secondary-text-color);
+  letter-spacing: 0.02em;
 }
 
 /* What are we doing section */
@@ -121,6 +136,10 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 
 /* Our team section */
@@ -133,6 +152,10 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 
 .our-team-img {
@@ -144,11 +167,13 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .members-text {
   line-height: 1.5;
   color: var(--secondary-text-color);
+  letter-spacing: 0.02em;
 }
 
 /* Porfolio main section */
@@ -156,7 +181,9 @@ body {
 .portfolio-btns {
   font-family: inherit;
   font-weight: 500;
+  font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.04em;
   background-color: var(--team-bg-color);
   color: var(--logo-main-color);
   cursor: pointer;
@@ -172,11 +199,15 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .portfolio-text {
+  font-size: 16px;
   line-height: 1.5;
-  color: var(--secondary-text-color);
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 /* Footer */
